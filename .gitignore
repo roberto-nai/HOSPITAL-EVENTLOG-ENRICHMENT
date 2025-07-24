@@ -1,2 +1,26 @@
-/data_out/*
-!/data_out/.gitkeep
+# Ignore output data folder but keep it empty
+data_out/
+!data_out/.gitkeep
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+*.~*
+
+# Ignore VS Code settings
+.vscode/
