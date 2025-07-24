@@ -7,7 +7,7 @@ The main goal is to add end-of-report information (`TIMESTAMP_END`) and other re
 
 - Load an event log from a CSV file and additional data from an Excel file (XLS/XLSX)
 - Check consistency between cases in both files (row count per case_id)
-- Enrich the log with additional columns (`DAY_start`, `DAY_endt`, `ESI_x_concurrent`, `SHIFT`)
+- Enrich the log with additional columns (`DAY_start`, `DAY_end`, `ESI_x_concurrent`, `SHIFT`)
 - Exclude and track case_ids with inconsistencies between the two files
 - Export results and control logs in CSV format
 
