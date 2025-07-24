@@ -1,0 +1,13 @@
+{
+    "Chiave": "object",
+    "Evento": "object",
+    "Priorità al Triage in Ingresso": "object",
+    "Medico accettante": "object",
+    "Infermiere di triage": "object",
+    "Prestazioni": "object",
+    "Data inizio": "datetime64[ns]",
+    "Data Fine_Referto": "datetime64[ns]",
+    "Esito dimissione": "object",
+    "Ricoverabile dal": "datetime64[ns]",
+    "Reparto di ricovero": "object"
+}
