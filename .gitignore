@@ -1,16 +1,13 @@
 # Ignore output data folder but keep it empty
-data_out/
+data_out/*
 !data_out/.gitkeep
-data_in/
+data_in/*
 !data_in/.gitkeep
 
 # Ignore Python cache
 __pycache__/
 *.pyc
 *.pyo
-
-# Ignore macOS system files
-.DS_Store
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
@@ -32,5 +29,6 @@ venv/
 env/
 *.egg-info/
 
-# DS_Store files
+# Ignore macOS system files
+.DS_Store
 **/.DS_Store
