@@ -1,6 +1,8 @@
 # Ignore output data folder but keep it empty
 data_out/
 !data_out/.gitkeep
+data_in/
+!data_in/.gitkeep
 
 # Ignore Python cache
 __pycache__/
@@ -24,3 +26,11 @@ __pycache__/
 
 # Ignore VS Code settings
 .vscode/
+
+# Ignore virtual environment directories
+venv/
+env/
+*.egg-info/
+
+# DS_Store files
+**/.DS_Store
